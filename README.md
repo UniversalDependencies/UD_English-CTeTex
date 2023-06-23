@@ -4,8 +4,22 @@
 
 
 # Introduction
+https://universaldependencies.org/release_checklist.html#the-readme-file
+
 
 ...
+## Origin
+The 
+
+## Splitting
+The whole corpus contains **XXX** tokens in **XXX** sentences for **XXX** software requirements.
+
+As it is below the threshold of **XXX** tokens, it was not split for train/dev/test. 
+
+## Genres
+The original sentences of the corpus are taken from the [PURE corpus](https://ieeexplore.ieee.org/document/8049173) of software requirement specification.
+
+The document id used in the files are related to the original file name in the PURE corpus.
 
 
 # Acknowledgments
@@ -14,8 +28,7 @@
 
 ## References
 
-* (citation)
-
+**(Hassert & al. 2021)** Naïma Hassert, Pierre André Ménard, Edith Galy. (2021) [UD on Software Requirements: Application and Challenges](https://aclanthology.org/2021.udw-1.5/). Proc. of Fifth Workshop on Universal Dependencies, Sofia, Bulgaria.
 
 # Changelog
 
