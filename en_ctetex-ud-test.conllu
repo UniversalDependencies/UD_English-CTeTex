@@ -858,7 +858,7 @@
 12	to	_	ADP	_	_	14	case	_	_
 13	the	_	DET	_	_	14	det	_	_
 14	trackside	_	NOUN	_	_	7	iobj	_	SpaceAfter=No
-15	:	_	PUNCT	_	_	21	punct	_	_
+15	:	_	PUNCT	_	_	14	punct	_	_
 16	(	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	M	_	ADJ	_	_	7	advmod	_	SpaceAfter=No
 18	)	_	PUNCT	_	_	17	punct	_	_
@@ -1118,7 +1118,7 @@
 11	of	_	ADP	_	_	13	case	_	_
 12	unique	_	ADJ	_	_	13	amod	_	_
 13	identification	_	NOUN	_	_	10	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	_	_	7	punct	_	_
+14	.	_	PUNCT	_	_	13	punct	_	_
 15	(	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	e.g.	_	ADV	_	_	18	parataxis	_	SpaceAfter=No
 17	,	_	PUNCT	_	_	16	punct	_	_
@@ -1212,12 +1212,12 @@
 11	method	_	NOUN	_	_	9	obj	_	SpaceAfter=No
 12	,	_	PUNCT	_	_	21	punct	_	_
 13	including	_	ADP	_	_	21	case	_	_
-14	(	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
+14	(	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
 15	but	_	CCONJ	_	_	21	cc	_	_
 16	not	_	PART	_	_	17	advmod	_	_
 17	limited	_	VERB	_	_	13	conj	_	_
 18	to	_	ADP	_	_	21	case	_	SpaceAfter=No
-19	)	_	PUNCT	_	_	17	punct	_	_
+19	)	_	PUNCT	_	_	18	punct	_	_
 20	Continuous	_	ADJ	_	_	21	amod	_	_
 21	BIT	_	NOUN	_	_	11	nmod	_	SpaceAfter=No
 22	,	_	PUNCT	_	_	25	punct	_	_
@@ -2247,7 +2247,7 @@
 17	characters	_	NOUN	_	_	14	obl	_	_
 18	“	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	VP	_	X	_	_	17	appos	_	SpaceAfter=No
-20	.	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+20	.	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
 21	”	_	PUNCT	_	_	19	punct	_	_
 
 # newdoc id = 2000_nasax38_3.2.5.2_8
@@ -2621,7 +2621,7 @@
 16	not	_	PART	_	_	17	advmod	_	_
 17	limited	_	VERB	_	_	13	conj	_	_
 18	to	_	ADP	_	_	21	case	_	SpaceAfter=No
-19	)	_	PUNCT	_	_	17	punct	_	_
+19	)	_	PUNCT	_	_	18	punct	_	_
 20	Continuous	_	ADJ	_	_	21	amod	_	_
 21	BIT	_	NOUN	_	_	11	nmod	_	SpaceAfter=No
 22	,	_	PUNCT	_	_	25	punct	_	_
@@ -2655,7 +2655,7 @@
 15	shall	_	AUX	_	_	16	aux	_	_
 16	display	_	VERB	_	_	0	root	_	_
 17	the	_	DET	_	_	23	det	_	_
-18	“	_	PUNCT	_	_	21	punct	_	SpaceAfter=No
+18	“	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
 19	Create	_	VERB	_	_	23	compound	_	_
 20	Flight	_	NOUN	_	_	21	compound	_	_
 21	Plan	_	NOUN	_	_	19	obj	_	SpaceAfter=No
@@ -2692,7 +2692,7 @@
 13	continuous	_	ADJ	_	_	15	amod	_	_
 14	sinusoidal	_	ADJ	_	_	15	amod	_	_
 15	vibration	_	NOUN	_	_	11	nmod	_	SpaceAfter=No
-16	:	_	PUNCT	_	_	22	punct	_	_
+16	:	_	PUNCT	_	_	15	punct	_	_
 17	(	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	M	_	ADJ	_	_	6	advmod	_	SpaceAfter=No
 19	)	_	PUNCT	_	_	18	punct	_	_
@@ -2949,7 +2949,7 @@
 33	processor	_	NOUN	_	_	35	nmod	_	_
 34	hardware	_	NOUN	_	_	35	compound	_	_
 35	failure	_	NOUN	_	_	6	parataxis	_	SpaceAfter=No
-36	,	_	PUNCT	_	_	41	punct	_	_
+36	,	_	PUNCT	_	_	35	punct	_	_
 37	operating	_	ADJ	_	_	38	amod	_	_
 38	system	_	NOUN	_	_	39	nmod	_	_
 39	hangs	_	VERB	_	_	35	conj	_	_
@@ -2988,7 +2988,7 @@
 72	)	_	PUNCT	_	_	71	punct	_	_
 73	communications	_	NOUN	_	_	74	nmod	_	_
 74	disruptions	_	NOUN	_	_	35	conj	_	SpaceAfter=No
-75	.	_	PUNCT	_	_	5	punct	_	_
+75	.	_	PUNCT	_	_	74	punct	_	_
 
 # newdoc id = 2000_nasax38_3.2.4.1.1_3
 # sent_id = 82
@@ -3382,7 +3382,7 @@
 48	original	_	ADJ	_	_	44	obl	_	_
 49	request	_	NOUN	_	_	40	obl	_	_
 50	to	_	ADP	_	_	57	case	_	SpaceAfter=No
-51	:	_	PUNCT	_	_	57	punct	_	_
+51	:	_	PUNCT	_	_	50	punct	_	_
 52	(	_	PUNCT	_	_	54	punct	_	SpaceAfter=No
 53	Previously	_	ADV	_	_	54	advmod	_	_
 54	SV-423.3	_	PROPN	_	_	30	appos	_	SpaceAfter=No
@@ -3799,8 +3799,8 @@
 31	not	_	PART	_	_	33	advmod	_	_
 32	been	_	AUX	_	_	33	aux:pass	_	_
 33	selected	_	VERB	_	_	26	parataxis	_	SpaceAfter=No
-34	.	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
-35	”	_	PUNCT	_	_	33	punct	_	_
+34	.	_	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	”	_	PUNCT	_	_	34	punct	_	_
 
 # newdoc id = 2002_evlaback_3.2.2.14
 # sent_id = 165
@@ -4825,7 +4825,7 @@
 21	last	_	ADV	_	_	22	advmod	_	_
 22	switched	_	VERB	_	_	16	advcl	_	_
 23	off	_	ADV	_	_	22	advmod	_	SpaceAfter=No
-24	:	_	PUNCT	_	_	32	punct	_	_
+24	:	_	PUNCT	_	_	23	punct	_	_
 25	(	_	PUNCT	_	_	26	punct	_	SpaceAfter=No
 26	M	_	ADJ	_	_	12	advmod	_	SpaceAfter=No
 27	)	_	PUNCT	_	_	26	punct	_	_
@@ -4977,7 +4977,7 @@
 21	staff	_	NOUN	_	_	16	nmod	_	SpaceAfter=No
 22	,	_	PUNCT	_	_	23	punct	_	_
 23	eg	_	ADV	_	_	30	parataxis	_	SpaceAfter=No
-24	:	_	PUNCT	_	_	30	punct	_	_
+24	:	_	PUNCT	_	_	23	punct	_	_
 25	(	_	PUNCT	_	_	26	punct	_	SpaceAfter=No
 26	M	_	ADJ	_	_	11	advmod	_	SpaceAfter=No
 27	)	_	PUNCT	_	_	26	punct	_	_
@@ -5443,7 +5443,7 @@
 11	following	_	ADJ	_	_	13	amod	_	_
 12	operational	_	ADJ	_	_	13	amod	_	_
 13	states	_	NOUN	_	_	9	obj	_	SpaceAfter=No
-14	:	_	PUNCT	_	_	22	punct	_	_
+14	:	_	PUNCT	_	_	13	punct	_	_
 15	(	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	M	_	ADJ	_	_	7	advmod	_	SpaceAfter=No
 17	)	_	PUNCT	_	_	16	punct	_	_
@@ -5872,7 +5872,7 @@
 4	values	_	NOUN	_	_	6	nsubj	_	_
 5	shall	_	AUX	_	_	6	aux	_	_
 6	apply	_	VERB	_	_	0	root	_	SpaceAfter=No
-7	:	_	PUNCT	_	_	13	punct	_	_
+7	:	_	PUNCT	_	_	6	punct	_	_
 8	(	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	M	_	ADJ	_	_	6	advmod	_	SpaceAfter=No
 10	)	_	PUNCT	_	_	9	punct	_	_
@@ -5986,8 +5986,8 @@
 35	HATS	_	PROPN	_	_	37	nmod	_	SpaceAfter=No
 36	-	_	PUNCT	_	_	37	punct	_	SpaceAfter=No
 37	SML	_	NOUN	_	_	34	obj	_	SpaceAfter=No
-38	.	_	PUNCT	_	_	22	punct	_	SpaceAfter=No
-39	”	_	PUNCT	_	_	32	punct	_	_
+38	.	_	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	”	_	PUNCT	_	_	38	punct	_	_
 
 # sent_id = 39
 # text = The HATS-GUI shall provide any other details related to the failure that are available from the Host OS.
@@ -6409,7 +6409,7 @@
 13	view	_	VERB	_	_	11	acl	_	_
 14	subscription	_	NOUN	_	_	15	nmod	_	_
 15	data	_	NOUN	_	_	13	obj	_	SpaceAfter=No
-16	,	_	PUNCT	_	_	23	punct	_	_
+16	,	_	PUNCT	_	_	15	punct	_	_
 17	and	_	CCONJ	_	_	23	cc	_	_
 18	optionally	_	ADV	_	_	4	advmod	_	_
 19	the	_	DET	_	_	23	det	_	_
@@ -6700,7 +6700,7 @@
 7	the	_	DET	_	_	9	det	_	_
 8	output	_	NOUN	_	_	9	compound	_	_
 9	stream	_	NOUN	_	_	4	obl	_	SpaceAfter=No
-10	,	_	PUNCT	_	_	17	punct	_	_
+10	,	_	PUNCT	_	_	9	punct	_	_
 11	but	_	CCONJ	_	_	17	cc	_	_
 12	not	_	PART	_	_	13	advmod	_	_
 13	necessarily	_	ADV	_	_	4	advmod	_	_
@@ -6943,7 +6943,7 @@
 10	the	_	DET	_	_	12	det	_	_
 11	following	_	ADJ	_	_	12	amod	_	_
 12	functions	_	NOUN	_	_	9	obj	_	SpaceAfter=No
-13	:	_	PUNCT	_	_	20	punct	_	_
+13	:	_	PUNCT	_	_	12	punct	_	_
 14	[	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	SSS037	_	PROPN	_	_	9	appos	_	SpaceAfter=No
 16	]	_	PUNCT	_	_	15	punct	_	_
@@ -7304,7 +7304,7 @@
 17	not	_	PART	_	_	18	advmod	_	_
 18	limited	_	VERB	_	_	14	conj	_	_
 19	to	_	ADP	_	_	23	case	_	SpaceAfter=No
-20	)	_	PUNCT	_	_	18	punct	_	_
+20	)	_	PUNCT	_	_	19	punct	_	_
 21	ICP	_	NOUN	_	_	23	nmod	_	_
 22	presence	_	NOUN	_	_	23	compound	_	_
 23	test	_	NOUN	_	_	12	nmod	_	SpaceAfter=No
@@ -8454,7 +8454,7 @@
 38	Type	_	NOUN	_	_	39	nsubj	_	_
 39	=	_	SYM	_	_	35	advcl	_	_
 40	8	_	NUM	_	_	39	obj	_	SpaceAfter=No
-41	;	_	PUNCT	_	_	56	punct	_	_
+41	;	_	PUNCT	_	_	40	punct	_	_
 42	(	_	PUNCT	_	_	43	punct	_	SpaceAfter=No
 43	M	_	ADJ	_	_	35	advmod	_	SpaceAfter=No
 44	)	_	PUNCT	_	_	43	punct	_	_
@@ -8475,7 +8475,7 @@
 59	other	_	ADJ	_	_	61	amod	_	_
 60	Call	_	NOUN	_	_	61	compound	_	_
 61	Type	_	NOUN	_	_	56	nmod	_	SpaceAfter=No
-62	.	_	PUNCT	_	_	21	punct	_	_
+62	.	_	PUNCT	_	_	61	punct	_	_
 63	(	_	PUNCT	_	_	64	punct	_	SpaceAfter=No
 64	O	_	ADJ	_	_	56	advmod	_	SpaceAfter=No
 65	)	_	PUNCT	_	_	64	punct	_	_
@@ -8507,7 +8507,7 @@
 22	an	_	DET	_	_	24	det	_	_
 23	on-going	_	ADJ	_	_	24	amod	_	_
 24	call	_	NOUN	_	_	15	advcl	_	SpaceAfter=No
-25	;	_	PUNCT	_	_	34	punct	_	_
+25	;	_	PUNCT	_	_	24	punct	_	_
 26	(	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	M	_	ADJ	_	_	15	advmod	_	SpaceAfter=No
 28	)	_	PUNCT	_	_	27	punct	_	_
@@ -8530,7 +8530,7 @@
 45	an	_	DET	_	_	47	det	_	_
 46	on-going	_	ADJ	_	_	47	amod	_	_
 47	call	_	NOUN	_	_	36	advcl	_	SpaceAfter=No
-48	.	_	PUNCT	_	_	5	punct	_	_
+48	.	_	PUNCT	_	_	47	punct	_	_
 49	(	_	PUNCT	_	_	50	punct	_	SpaceAfter=No
 50	M	_	ADJ	_	_	34	advmod	_	SpaceAfter=No
 51	)	_	PUNCT	_	_	50	punct	_	_
@@ -8952,7 +8952,7 @@
 17	value	_	NOUN	_	_	7	iobj	_	_
 18	so	_	SCONJ	_	_	21	mark	_	_
 19	as	_	SCONJ	_	_	18	fixed	_	_
-20	to	_	PART	_	_	19	fixed	_	_
+20	to	_	PART	_	_	18	fixed	_	_
 21	cause	_	VERB	_	_	7	advcl	_	_
 22	the	_	DET	_	_	26	det	_	_
 23	next	_	ADJ	_	_	26	amod	_	_
@@ -9156,7 +9156,7 @@
 10	to	_	ADP	_	_	12	case	_	_
 11	the	_	DET	_	_	12	det	_	_
 12	application	_	NOUN	_	_	7	obl	_	SpaceAfter=No
-13	,	_	PUNCT	_	_	17	punct	_	_
+13	,	_	PUNCT	_	_	12	punct	_	_
 14	congruently	_	ADV	_	_	7	advmod	_	_
 15	on	_	ADP	_	_	17	case	_	_
 16	all	_	DET	_	_	17	det	_	_
@@ -9235,7 +9235,7 @@
 36	this	_	DET	_	_	37	det	_	_
 37	route	_	NOUN	_	_	35	obj	_	SpaceAfter=No
 38	?	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
-39	”	_	PUNCT	_	_	30	punct	_	_
+39	”	_	PUNCT	_	_	38	punct	_	_
 
 # newdoc id = 2019_MOSAR_3.4.3_IntR_B306
 # sent_id = 247
@@ -9342,7 +9342,7 @@
 58	following	_	ADJ	_	_	60	amod	_	_
 59	load	_	NOUN	_	_	60	compound	_	_
 60	factors	_	NOUN	_	_	55	conj	_	SpaceAfter=No
-61	,	_	PUNCT	_	_	48	punct	_	_
+61	,	_	PUNCT	_	_	60	punct	_	_
 62	whichever	_	PRON	_	_	64	nsubj	_	_
 63	are	_	AUX	_	_	64	cop	_	_
 64	greater	_	ADJ	_	_	55	acl	_	SpaceAfter=No
@@ -9534,7 +9534,7 @@
 24	or	_	CCONJ	_	_	25	cc	_	_
 25	stormwater	_	NOUN	_	_	23	conj	_	_
 26	projects	_	NOUN	_	_	1	parataxis	_	SpaceAfter=No
-27	.	_	PUNCT	_	_	23	punct	_	_
+27	.	_	PUNCT	_	_	26	punct	_	_
 28	•	_	PUNCT	_	_	30	punct	_	_
 29	Reclaimed	_	ADJ	_	_	30	amod	_	_
 30	water	_	NOUN	_	_	26	list	_	_
@@ -9802,7 +9802,7 @@
 44	of	_	ADP	_	_	46	case	_	_
 45	all	_	DET	_	_	46	det	_	_
 46	interfaces	_	NOUN	_	_	43	nmod	_	SpaceAfter=No
-47	.	_	PUNCT	_	_	7	punct	_	_
+47	.	_	PUNCT	_	_	46	punct	_	_
 48	[	_	PUNCT	_	_	49	punct	_	SpaceAfter=No
 49	SSS028	_	PROPN	_	_	38	appos	_	SpaceAfter=No
 50	]	_	PUNCT	_	_	49	punct	_	_

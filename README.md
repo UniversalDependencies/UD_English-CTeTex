@@ -55,7 +55,7 @@ Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction
-Lemmas: manual native
+Lemmas: not available
 UPOS: manual native
 XPOS: not available
 Features: manual native
