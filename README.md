@@ -2,13 +2,12 @@
 UD_English-CTeTex is a technical text corpus annotated in Universal Dependency syntax containing 196 software requirements.   
 
 # Introduction
-https://universaldependencies.org/release_checklist.html#the-readme-file
 
 The original sentences of the corpus are taken mainly from the [PURE corpus](https://ieeexplore.ieee.org/document/8049173) of software requirement specifications (SRS), as well as other SRS documents available publicly on the web.
 
 
 ## Splitting
-The whole corpus contains 9,273 tokens in 276 sentences for 196 software requirements.
+The whole corpus contains 9,273 tokens in 276 sentences for 196 software requirements. Many individual software requirements were selected from the same SRS document.
 
 As it is below the threshold of 20k tokens, it was not split for train/dev/test. 
 
