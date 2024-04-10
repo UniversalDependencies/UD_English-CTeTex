@@ -64,7 +64,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Ménard, Pierre André
+Contributors: Hassert, Naïma; Ménard, Pierre André; Galy, Edith
 Contributing: here
 Contact: pamenard@gmail.com
 ===============================================================================
