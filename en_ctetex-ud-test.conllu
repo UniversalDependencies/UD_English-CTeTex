@@ -1018,7 +1018,7 @@
 # newdoc id = 1999_multi-mahjong_4.3.5
 # sent_id = 270
 # text = User's will be able to pick up a tile from the wall if it is their turn.
-1	User's	user'	NOUN	_	Number=Plur	4	nsubj	_	_
+1	User's	user	NOUN	_	Number=Plur	4	nsubj	_	_
 2	will	will	AUX	_	_	4	aux	_	_
 3	be	be	AUX	_	Number=Sing|Tense=Pres	4	cop	_	_
 4	able	able	ADJ	_	_	0	root	_	_
@@ -3226,7 +3226,7 @@
 57	Speed	speed	NOUN	_	Number=Sing	16	list	_	SpaceAfter=No
 58	:	:	PUNCT	_	_	57	punct	_	_
 59	2,097,152	2,097,152	NUM	_	_	60	nummod	_	_
-60	bps	bp	NOUN	_	Number=Plur	57	parataxis	_	LineAfter=Yes
+60	bps	bps	NOUN	_	Number=Plur	57	parataxis	_	LineAfter=Yes
 61	•	•	PUNCT	_	_	63	punct	_	_
 62	Buffer	buffer	NOUN	_	Number=Sing	63	compound	_	_
 63	size	size	NOUN	_	Number=Sing	16	list	_	SpaceAfter=No
@@ -3314,7 +3314,7 @@
 63	Speed	speed	NOUN	_	Number=Sing	16	list	_	SpaceAfter=No
 64	:	:	PUNCT	_	_	63	punct	_	_
 65	1,048,576	1,048,576	NUM	_	_	66	nummod	_	_
-66	bps	bp	NOUN	_	Number=Plur	63	parataxis	_	LineAfter=Yes
+66	bps	bps	NOUN	_	Number=Plur	63	parataxis	_	LineAfter=Yes
 67	•	•	PUNCT	_	_	69	punct	_	_
 68	No	no	DET	_	_	69	det	_	_
 69	parity	parity	NOUN	_	Number=Sing	16	list	_	SpaceAfter=No
