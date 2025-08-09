@@ -49,6 +49,9 @@ We would like to thank the Natural Sciences and Engineering Research Council of 
 
 # Changelog
 
+* 2025-08-09 v2.16
+  * Added lemmas
+  
 * 2022-05-15 v2.10
   * Initial release in Universal Dependencies.
 
@@ -58,8 +61,8 @@ We would like to thank the Natural Sciences and Engineering Research Council of 
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: nonfiction
-Lemmas: not available
+Genre: nonfiction instruction
+Lemmas: manual native
 UPOS: manual native
 XPOS: not available
 Features: manual native
