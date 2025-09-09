@@ -61,6 +61,7 @@ We would like to thank the Natural Sciences and Engineering Research Council of 
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: nonfiction instruction
 Lemmas: manual native
 UPOS: manual native
