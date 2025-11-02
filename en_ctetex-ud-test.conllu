@@ -381,7 +381,7 @@
 33	,	,	PUNCT	_	_	38	punct	_	_
 34	“	“	PUNCT	_	_	38	punct	_	SpaceAfter=No
 35	Where	where	ADV	_	_	38	advmod	_	_
-36	to	to	AUX	_	_	38	aux	_	_
+36	to	do	AUX	_	Typo=Yes	38	aux	_	CorrectForm=do
 37	I	i	PRON	_	_	38	nsubj	_	_
 38	go	go	VERB	_	_	28	conj	_	_
 39	to	to	PART	_	_	40	mark	_	_
@@ -510,7 +510,7 @@
 34	with	with	ADP	_	_	36	case	_	_
 35	the	the	DET	_	_	36	det	_	_
 36	image	image	NOUN	_	Number=Sing	33	obl	_	_
-37	being	being	AUX	_	_	38	aux:pass	_	_
+37	being	be	AUX	_	_	38	aux:pass	_	_
 38	displayed	display	VERB	_	Tense=Past	36	acl	_	LineAfter=Yes
 39	b	b	NUM	_	_	42	nummod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	39	punct	_	_
@@ -525,7 +525,7 @@
 49	of	of	ADP	_	_	51	case	_	_
 50	the	the	DET	_	_	51	det	_	_
 51	image	image	NOUN	_	Number=Sing	42	nmod	_	_
-52	being	being	AUX	_	_	53	aux:pass	_	_
+52	being	be	AUX	_	_	53	aux:pass	_	_
 53	displayed	display	VERB	_	Tense=Past	51	acl	_	_
 54	with	with	ADP	_	_	55	case	_	_
 55	respect	respect	NOUN	_	Number=Sing	42	nmod	_	_
@@ -876,8 +876,8 @@
 30	load	load	NOUN	_	Number=Sing	21	list	_	LineAfter=Yes
 31	status	status	NOUN	_	Number=Sing	21	list	_	_
 32	of	of	ADP	_	_	35	case	_	_
-33	air	air	ADJ	_	_	35	amod	_	_
-34	tight	tight	X	_	_	33	goeswith	_	_
+33	air	airtight	ADJ	_	Typo=Yes	35	amod	_	_
+34	tight	_	X	_	_	33	goeswith	_	_
 35	system	system	NOUN	_	Number=Sing	31	nmod	_	LineAfter=Yes
 36	type	type	NOUN	_	Number=Sing	21	list	_	_
 37	of	of	ADP	_	_	39	case	_	_
@@ -2037,8 +2037,8 @@
 21	Weight	weight	NOUN	_	Number=Sing	26	nmod	_	_
 22	and	and	CCONJ	_	_	23	cc	_	_
 23	balance	balance	NOUN	_	Number=Sing	21	conj	_	_
-24	take	take	NOUN	_	Number=Sing	21	nmod	_	_
-25	off	off	X	_	_	24	goeswith	_	_
+24	take	takeoff	NOUN	_	Number=Sing|Typo=Yes	21	nmod	_	_
+25	off	_	X	_	_	24	goeswith	_	_
 26	data	data	NOUN	_	Number=Sing	27	nmod	_	_
 27	calculations	calculation	NOUN	_	Number=Plur	7	parataxis	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	27	punct	_	_
@@ -3370,7 +3370,7 @@
 36	active	active	ADJ	_	_	38	amod	_	_
 37	Subscription	subscription	NOUN	_	Number=Sing	38	nmod	_	_
 38	Version	version	NOUN	_	Number=Sing	32	obj	_	_
-39	being	being	AUX	_	_	40	aux	_	_
+39	being	be	AUX	_	_	40	aux	_	_
 40	disconnected	disconnect	VERB	_	Tense=Past	38	acl	_	_
 41	due	due	ADP	_	_	49	case	_	_
 42	to	to	ADP	_	_	41	fixed	_	_
@@ -3457,8 +3457,8 @@
 39	for	for	ADP	_	_	42	case	_	_
 40	any	any	DET	_	_	42	det	_	_
 41	selected	selected	ADJ	_	_	42	amod	_	_
-42	mont	mont	NOUN	_	Number=Sing	38	nmod	_	_
-43	h	h	X	_	_	42	goeswith	_	SpaceAfter=No
+42	mont	month	NOUN	_	Number=Sing|Typo=Yes	38	nmod	_	_
+43	h	_	X	_	_	42	goeswith	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	4	punct	_	_
 
 # newdoc id = 2001_npac_7.9.3.1_R7-94.2
@@ -5498,8 +5498,8 @@
 66	operation	operation	NOUN	_	Number=Sing	22	list	_	LineAfter=Yes
 67	7	7	NUM	_	_	71	nummod	_	SpaceAfter=No
 68	.	.	PUNCT	_	_	67	punct	_	_
-69	Stand	stand	ADJ	_	_	71	compound	_	_
-70	By	By	X	_	_	69	goeswith	_	_
+69	Stand	standby	ADJ	_	Typo=Yes	71	compound	_	_
+70	By	_	X	_	_	69	goeswith	_	_
 71	operation	operation	NOUN	_	Number=Sing	22	list	_	LineAfter=Yes
 72	8	8	NUM	_	_	75	nummod	_	SpaceAfter=No
 73	.	.	PUNCT	_	_	72	punct	_	_
@@ -6778,8 +6778,8 @@
 23	:	:	PUNCT	_	_	25	punct	_	LineAfter=Yes
 24	WD	wd	NOUN	_	Number=Sing	25	nsubj	_	_
 25	=	=	SYM	_	_	9	advcl	_	_
-26	ground	ground	NOUN	_	Number=Sing	31	nmod	_	_
-27	water	water	X	_	_	26	goeswith	_	_
+26	ground	groundwater	NOUN	_	Number=Sing|Typo=Yes	31	nmod	_	_
+27	water	_	X	_	_	26	goeswith	_	_
 28	&	&	CCONJ	_	_	30	cc	_	_
 29	surface	surface	NOUN	_	Number=Sing	30	compound	_	_
 30	water	water	NOUN	_	Number=Sing	26	conj	_	_
@@ -7501,7 +7501,7 @@
 30	Split	split	NOUN	_	Number=Sing	26	obl	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	34	punct	_	_
 32	is	be	AUX	_	Number=Sing|Tense=Pres	34	aux	_	_
-33	being	being	AUX	_	_	34	aux:pass	_	_
+33	being	be	AUX	_	_	34	aux:pass	_	_
 34	ported	port	VERB	_	Tense=Past	4	advcl	_	_
 35	for	for	ADP	_	_	38	case	_	_
 36	the	the	DET	_	_	38	det	_	_
@@ -8947,8 +8947,8 @@
 12	timer	timer	NOUN	_	Number=Sing	7	obj	_	_
 13	to	to	ADP	_	_	17	case	_	_
 14	a	a	DET	_	_	17	det	_	_
-15	count	count	NOUN	_	Number=Sing	17	nmod	_	_
-16	down	down	X	_	_	15	goeswith	_	_
+15	count	countdown	NOUN	_	Number=Sing|Typo=Yes	17	nmod	_	_
+16	down	_	X	_	_	15	goeswith	_	_
 17	value	value	NOUN	_	Number=Sing	7	iobj	_	_
 18	so	so	SCONJ	_	_	21	mark	_	_
 19	as	as	SCONJ	_	_	18	fixed	_	_
@@ -8987,8 +8987,8 @@
 9	both	both	CCONJ	_	_	10	cc	_	_
 10	single	single	ADJ	_	_	14	amod	_	_
 11	and	and	CCONJ	_	_	12	cc	_	_
-12	multi	multi	ADJ	_	_	10	conj	_	_
-13	player	player	X	_	_	12	goeswith	_	_
+12	multi	multiplayer	ADJ	_	Typo=Yes	10	conj	_	_
+13	player	_	X	_	_	12	goeswith	_	_
 14	modes	mode	NOUN	_	Number=Plur	4	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -10033,7 +10033,7 @@
 24	values	value	NOUN	_	Number=Plur	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	33	punct	_	_
 26	for	for	ADP	_	_	33	mark	_	_
-27	being	being	AUX	_	_	33	cop	_	_
+27	being	be	AUX	_	_	33	cop	_	_
 28	within	within	ADP	_	_	33	case	_	_
 29	their	their	DET	_	_	33	nmod	_	_
 30	pre	pre	ADV	_	_	32	advmod	_	SpaceAfter=No
