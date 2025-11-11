@@ -10,31 +10,37 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>276</sentences><tokens>9273</tokens><words>9273</words><fused>0</fused></test>
   </size>
-  <lemmas unique="0" /><!--  -->
+  <lemmas unique="1716" /><!-- the, ,, ., be, to, of, shall, and, a, -, ), (, in, for, : -->
   <forms unique="1952" /><!-- the, ,, ., to, of, shall, and, a, -, ), be, (, in, for, : -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">647</tag><!-- _ -->
-    <tag name="ADP">781</tag><!-- _ -->
-    <tag name="ADV">185</tag><!-- _ -->
-    <tag name="AUX">492</tag><!-- _ -->
-    <tag name="CCONJ">267</tag><!-- _ -->
-    <tag name="DET">936</tag><!-- _ -->
-    <tag name="INTJ">4</tag><!-- _ -->
-    <tag name="NOUN">2649</tag><!-- _ -->
-    <tag name="NUM">317</tag><!-- _ -->
-    <tag name="PART">165</tag><!-- _ -->
-    <tag name="PRON">83</tag><!-- _ -->
-    <tag name="PROPN">293</tag><!-- _ -->
-    <tag name="PUNCT">1455</tag><!-- _ -->
-    <tag name="SCONJ">163</tag><!-- _ -->
-    <tag name="SYM">98</tag><!-- _ -->
-    <tag name="VERB">721</tag><!-- _ -->
-    <tag name="X">17</tag><!-- _ -->
+    <tag name="ADJ">647</tag><!-- following, m, able, local, available, current, active, failed, new, continuous -->
+    <tag name="ADP">781</tag><!-- of, to, in, for, with, from, on, by, as, at -->
+    <tag name="ADV">185</tag><!-- e.g., more, up, non, at, out, previously, no, off, on -->
+    <tag name="AUX">492</tag><!-- be, shall, will, do, have, must, can, should, could, may -->
+    <tag name="CCONJ">267</tag><!-- and, or, but, both, &, plus -->
+    <tag name="DET">936</tag><!-- the, a, an, all, this, any, no, each, its, their -->
+    <tag name="INTJ">3</tag><!-- no, ok, yes -->
+    <tag name="NOUN">2650</tag><!-- system, data, flight, sms, user, service, message, time, operation, interface -->
+    <tag name="NUM">317</tag><!-- 1, 2, 3, 4, 5, two, 50, 8, a, b -->
+    <tag name="PART">165</tag><!-- to, not, ’s, 's, ot, ’ -->
+    <tag name="PRON">83</tag><!-- that, it, there, one, all, which, this, you, i, when -->
+    <tag name="PROPN">293</tag><!-- NPAC, HATS, TCS, ASPERA-3, AC-130U, MEX, NDE, EIRENE, FPMS, MC-130H -->
+    <tag name="PUNCT">1455</tag><!-- ,, ., ), -, (, :, [, ], •, “ -->
+    <tag name="SCONJ">163</tag><!-- when, if, as, that, than, of, for, by, after, whether -->
+    <tag name="SYM">98</tag><!-- /, =, %, -, &, °, +, #, x, ### -->
+    <tag name="VERB">721</tag><!-- display, provide, select, have, use, allow, create, receive, send, report -->
+    <tag name="X">17</tag><!-- _, s, VP, capita, per -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="0">
+  <feats unique="6">
+    <feat name="ExtPos" value="SCONJ" upos="ADJ">1</feat><!-- such -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,PRON,VERB">450</feat><!-- are, nodes, systems, hours, errors, levels, operations, calls, conditions, quantities -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,VERB">2462</feat><!-- be, is, system, data, flight, SMS, user, time, message, service -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">292</feat><!-- displaying, using, diagnosed, received, specified, based, been, used, configured, defined -->
+    <feat name="Tense" value="Pres" upos="AUX">205</feat><!-- be, is, are, was -->
+    <feat name="Typo" value="Yes" upos="ADJ,AUX,NOUN">8</feat><!-- Stand, air, count, ground, mont, multi, take, to -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="38">
