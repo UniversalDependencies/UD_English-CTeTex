@@ -4348,7 +4348,7 @@
 33	plan	plan	NOUN	_	Number=Sing	29	obj	_	_
 34	for	for	ADP	_	_	36	case	_	_
 35	the	the	DET	_	_	36	det	_	_
-36	flight	flight	NOUN	_	Number=Sing	33	obl	_	LineAfter=Yes
+36	flight	flight	NOUN	_	Number=Sing	33	nmod	_	LineAfter=Yes
 37	b	b	NUM	_	_	43	nummod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	37	punct	_	_
 39	The	the	DET	_	_	40	det	_	_
@@ -5251,7 +5251,7 @@
 28	as	as	SCONJ	_	_	31	case	_	_
 29	an	an	DET	_	_	31	det	_	_
 30	existing	existing	ADJ	_	_	31	amod	_	_
-31	flight	flight	NOUN	_	Number=Sing	27	obl	_	SpaceAfter=No
+31	flight	flight	NOUN	_	Number=Sing	25	obl	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	37	punct	_	_
 33	and	and	CCONJ	_	_	37	cc	_	LineAfter=Yes
 34	b	b	NUM	_	_	37	nummod	_	SpaceAfter=No
