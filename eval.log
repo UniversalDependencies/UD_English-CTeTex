@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_English-CTeTex:
-commit 2c2cd377dba5f3eb53c1c7f0201be886f02039c7
-Merge: f27a4a1 1b6f522
+commit b3d2b7bcffcb0988bea6c640a9945a753035fd74
+Merge: 1361617 3208ccc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_ctetex'
@@ -25,18 +25,29 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-CTeTex/en_ctetex-ud-test.conllu
-[Line 4 Sent 255]: [L3 Warning pron-det-without-prontype] The word 'The' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 10 Sent 255]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 16 Sent 255]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 33 Sent 255]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 50 Sent 199]: [L3 Warning pron-det-without-prontype] The word 'The' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 61 Sent 199]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 68 Sent 200]: [L3 Warning pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 72 Sent 200]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 88 Sent 201]: [L3 Warning pron-det-without-prontype] The word 'This' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 94 Sent 201]: [L3 Warning pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 1073
+[Line 4 Sent 255]: [L3 WARNING pron-det-without-prontype] The word 'The' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10 Sent 255]: [L3 WARNING pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 16 Sent 255]: [L3 WARNING pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 33 Sent 255]: [L3 WARNING pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 50 Sent 199]: [L3 WARNING pron-det-without-prontype] The word 'The' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 61 Sent 199]: [L3 WARNING pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 68 Sent 200]: [L3 WARNING pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 72 Sent 200]: [L3 WARNING pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 88 Sent 201]: [L3 WARNING pron-det-without-prontype] The word 'This' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 94 Sent 201]: [L3 WARNING pron-det-without-prontype] The word 'the' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 624 Sent 54]: [L3 WARNING fixed-without-extpos] Fixed expression 'regardless of' does not have the 'ExtPos' feature
+[Line 832 Sent 246]: [L3 WARNING fixed-without-extpos] Fixed expression 'up to' does not have the 'ExtPos' feature
+[Line 1676 Sent 77]: [L3 WARNING fixed-without-extpos] Fixed expression 'according to' does not have the 'ExtPos' feature
+[Line 1992 Sent 169]: [L3 WARNING fixed-without-extpos] Fixed expression 'at least' does not have the 'ExtPos' feature
+[Line 2093 Sent 99]: [L3 WARNING fixed-without-extpos] Fixed expression 'such as' does not have the 'ExtPos' feature
+[Line 2099 Sent 99]: [L3 WARNING fixed-without-extpos] Fixed expression 'due to' does not have the 'ExtPos' feature
+[Line 2219 Sent 31]: [L3 WARNING fixed-without-extpos] Fixed expression 'equal to' does not have the 'ExtPos' feature
+[Line 2222 Sent 31]: [L3 WARNING fixed-without-extpos] Fixed expression 'better than' does not have the 'ExtPos' feature
+[Line 2748 Sent 108]: [L3 WARNING fixed-without-extpos] Fixed expression 'at least' does not have the 'ExtPos' feature
+[Line 3025 Sent 82]: [L3 WARNING fixed-without-extpos] Fixed expression 'out of' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 1071
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
