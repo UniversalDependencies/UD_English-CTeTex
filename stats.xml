@@ -69,13 +69,13 @@
     <dep name="iobj">24</dep>
     <dep name="list">116</dep>
     <dep name="mark">253</dep>
-    <dep name="nmod">903</dep>
+    <dep name="nmod">904</dep>
     <dep name="nsubj">328</dep>
     <dep name="nsubj:outer">1</dep>
     <dep name="nsubj:pass">105</dep>
     <dep name="nummod">226</dep>
     <dep name="obj">361</dep>
-    <dep name="obl">319</dep>
+    <dep name="obl">318</dep>
     <dep name="obl:agent">22</dep>
     <dep name="parataxis">127</dep>
     <dep name="punct">1455</dep>
