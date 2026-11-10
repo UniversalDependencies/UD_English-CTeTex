@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_English-CTeTex:
-commit b3d2b7bcffcb0988bea6c640a9945a753035fd74
-Merge: 1361617 3208ccc
+commit 3d2bda424dcdedb8889aeec9f81ee6401994f7f2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 12:38:16 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_ctetex'
 Language code (from CoNLL-U file name) = 'en'
